@@ -1,0 +1,105 @@
+api_url: "https://v1.db.api.mabnadp.com"
+
+api_parameters:
+    create:
+        - 'meta.version=0'
+        - '&meta.version_op=gt'
+    update:
+        - 'meta.version='
+        - '&meta.version_op=gt'
+
+instrument_types:
+    - share
+    - bond
+    - future
+    - intellectual_property
+    - energy
+    - commodity
+    - currency
+    - crypto
+
+collection:
+    bond:
+        - bonds
+        - bondauthoritytypes
+        - interestpayments
+
+    broker:
+        - brokers
+
+    calendar:
+        - occasiontypes
+        - dates
+        - calendars
+
+    option:
+        - contracts
+        - contracthistory
+        - contractstyles
+
+    exchange:
+        - news
+        - persons
+        - gendertypes
+        - assettypes
+        - assetstates
+        - instrumentexchangestates
+        - instrumentgroupstatetypes
+        - exchanges
+        - boards
+        - indexinstrumenteffects
+        - reportimages
+        - reporttitles
+        - instrumentbasevolumes
+        - categories
+        - assetcategories
+        - reportsubtitles
+        - indexes
+        - indexvalues
+        - markets
+        - trades
+        - sources
+        - reportsources
+        - instruments
+        - indexinstruments
+        - instrumentstates
+        - instrumentgroupstates
+        - percentageactiontypes
+        - percentagedealertypes
+        - percentages
+        - percentagevalues
+        - percentagegroups
+        - instrumentgroups
+
+    fund:
+        - funds
+
+    stock:
+        - epses
+        - companycontactinfos
+        - boardofdirectorsitems
+        - boardofdirectors
+        - companycontactinfotypes
+        - meetingtypes
+        - capitalchanges
+        - productionsaleitems
+        - productionsales
+        - companycategories
+        - freefloats
+        - shareholdersitems
+        - shareholders
+        - profitlossitems
+        - profitlossfields
+        - profitlosses
+        - companies
+        - meetinginvites
+        - meetings
+        - products
+        - positions
+        - directortypes
+        - units
+        - companystates
+        - dividendpayouts
+        - cashflowitems
+        - cashflowfields
+        - cashflows
